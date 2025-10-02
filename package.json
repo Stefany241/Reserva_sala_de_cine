@@ -1,0 +1,15 @@
+{
+  "name": "pagina-web",
+  "version": "1.0.0",
+  "description": "Proyecto básico de página web",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

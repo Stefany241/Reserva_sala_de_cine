@@ -1,29 +1,29 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #f7f7f7;
-    color: #333;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    background: #f0f0f0; /* Un gris más claro */
+    color: #444; /* Un color de texto un poco más suave */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.7; /* Mejora la legibilidad */
 }
 
 /* Header y Nav */
 header {
     background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 1em 0;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.15); /* Sombra sutilmente más pronunciada */
+    padding: 1.2em 0; /* Aumenta un poco el padding */
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
+    padding: 0 2.5em; /* Aumenta el padding horizontal */
 }
 
 .logo a {
-    color: #e44d26;
-    font-size: 1.8em;
+    color: #2980b9; /* Un azul más moderno */
+    font-size: 2em; /* Aumenta el tamaño del logo */
     font-weight: 700;
     text-decoration: none;
 }
@@ -31,35 +31,37 @@ nav {
 .menu {
     list-style: none;
     display: flex;
-    gap: 2em;
+    gap: 2.5em; /* Aumenta el espacio entre los elementos del menú */
     margin: 0;
     padding: 0;
 }
 
 .menu a {
-    color: #555;
+    color: #666; /* Un gris más suave para el menú */
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente del menú */
 }
 
 .menu a:hover {
-    color: #e44d26;
+    color: #3498db; /* Un azul más claro al pasar el ratón */
 }
 
 .btn-reservar {
-    background: #e44d26;
+    background: #3498db; /* Azul más moderno para el botón */
     color: #fff;
-    padding: 0.7em 1.5em;
-    border-radius: 8px;
+    padding: 0.8em 1.7em; /* Aumenta un poco el padding del botón */
+    border-radius: 10px; /* Bordes más redondeados */
     transition: background-color 0.3s ease;
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente del botón */
 }
 
 .btn-reservar:hover {
-    background: #d14321;
+    background: #2980b9; /* Un azul más oscuro al pasar el ratón */
 }
 
 .btn-reservar i {
-    margin-right: 0.5em;
+    margin-right: 0.6em; /* Aumenta un poco el margen */
 }
 
 /* Main */
@@ -67,93 +69,97 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
-    padding: 2em;
+    min-height: 75vh; /* Aumenta un poco la altura mínima */
+    padding: 2.5em; /* Aumenta el padding */
 }
 
 section#reserva {
     background: #fff;
-    padding: 2em;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    width: 80%;
-    max-width: 600px;
+    padding: 2.5em; /* Aumenta el padding */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15); /* Sombra más pronunciada */
+    width: 85%; /* Aumenta el ancho */
+    max-width: 700px; /* Aumenta el ancho máximo */
 }
 
 section#reserva h2 {
-    color: #e44d26;
+    color: #2980b9; /* Azul más moderno */
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.7em; /* Aumenta el margen inferior */
     font-weight: 400;
+    font-size: 2em; /* Aumenta el tamaño del título */
 }
 
 form .form-group {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.7em; /* Aumenta el margen inferior */
 }
 
 form label {
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em; /* Aumenta el margen inferior */
     color: #777;
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente */
 }
 
 form select, form input {
     width: 100%;
-    padding: 0.75em;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 1em;
+    padding: 0.8em; /* Aumenta el padding */
+    border: 1px solid #ccc; /* Borde un poco más claro */
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente */
     color: #555;
     box-sizing: border-box;
 }
 
 button {
-    background: #e44d26;
+    background: #3498db; /* Azul más moderno */
     color: #fff;
     border: none;
-    padding: 0.9em 2em;
-    border-radius: 8px;
+    padding: 1em 2.2em; /* Aumenta el padding */
+    border-radius: 10px; /* Bordes más redondeados */
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente */
     transition: background-color 0.3s ease;
     width: 100%;
     display: block;
-    margin-top: 1em;
+    margin-top: 1.2em; /* Aumenta el margen superior */
 }
 
 button:hover {
-    background: #d14321;
+    background: #2980b9; /* Un azul más oscuro al pasar el ratón */
 }
 
 #mensaje {
-    margin-top: 1.5em;
-    color: #28a745;
+    margin-top: 1.7em; /* Aumenta el margen superior */
+    color: #27ae60; /* Un verde más agradable */
     text-align: center;
     font-weight: 500;
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente */
 }
 
 /* Footer */
 footer {
     background: #fff;
-    padding: 2em 0;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+    padding: 2.2em 0; /* Aumenta el padding */
+    box-shadow: 0 -3px 7px rgba(0,0,0,0.07); /* Sombra sutilmente más pronunciada */
     color: #777;
+    font-size: 1em; /* Aumenta el tamaño de la fuente */
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
+    padding: 0 2.5em; /* Aumenta el padding horizontal */
 }
 
 .social-links a {
-    color: #555;
-    margin-left: 1em;
-    font-size: 1.2em;
+    color: #666; /* Un gris más suave */
+    margin-left: 1.2em; /* Aumenta el margen izquierdo */
+    font-size: 1.3em; /* Aumenta el tamaño de los iconos */
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #e44d26;
+    color: #3498db; /* Azul más claro al pasar el ratón */
 }
